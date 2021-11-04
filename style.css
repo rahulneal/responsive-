@@ -1,0 +1,302 @@
+*{ 
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+
+@media only screen and (max-width:700px){
+    *{
+        background-color: lavender;
+    }
+    .nav{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        position: relative;
+        border: 2px solid #333;
+        border-top: none;
+        padding: 10px 20px;
+        border-left: none;
+        border-right: none;
+    }
+
+    #hamburger_menu{
+        margin-left: -40px;
+        border: none;
+    }
+    .menu_show_desktop{
+     display: none;
+    }
+
+
+    #search{
+        border: none;
+        position: absolute;
+        top: 10px;
+    }
+    li{
+        list-style: none;
+        margin: 0%;
+        padding: 0%;
+    }
+    ul{
+        
+        margin: 0px;
+        padding: 0px;
+    }
+    .menu_show{
+        /* visibility: visible; */
+        /* visibility: collapse; */
+        /* So here if i use visibility then the space will be preoccupied with the div but this doesn't look good , that is why we will be using the display property of css. */
+        display: none;
+    }
+
+    .menu_show ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 5px;
+    }
+
+    .menu_show ul li{
+        padding: 10px 10px;
+        background-color: transparent;
+        border-bottom: 1px solid #333;
+        
+        
+    }
+
+    .menu_show ul li:hover{
+        background-color: #333;
+    }
+
+    .profile_image{
+        display: flex;
+        justify-content: center;
+        margin: 30px;    
+    }
+
+    #profile_image_btn img
+    {
+        
+        border-radius: 100% 100% 100% 100%;
+    }
+
+    #profile_image_btn{
+        border:10px solid #555;
+        border-radius: 100% 100% 100% 100%;
+
+    }
+
+    .about{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .container{
+        max-width: 380px;
+        margin: 1rem  auto 0 auto;
+        /* background-color: #262525; */
+        
+    }
+
+    h1{
+        padding-bottom: 25px;
+        padding-left: 15px;
+        
+        
+    }
+    p{
+        line-height: 1.5rem;
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .skills{
+        position: relative;
+        margin: 95px;
+    }
+    .skills h1{
+        color: purple;
+        padding-left: 100px;
+        
+
+    }
+    .skills h1::before{
+    content: url(./arrow\ art.png);
+    position: absolute;
+    left: -20%;
+    top: -50%;
+        
+    }
+
+    .skill_case ul{
+        margin: 10px;
+        position: absolute;
+        right: 0%;
+        
+    }
+    .skill_case ul li{
+        margin: 10px;
+    }
+    .skill_case ul li button{
+        padding: 20px;
+        padding-right: 100px;
+        border:2px solid #555;
+        border-radius: 5px 5px 5px 5px;
+
+    }
+}
+/* ===================Desktop====================== */
+
+@media only screen and (min-width:700px){
+    
+*{
+    background-color: lavender;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    border: 2px solid #333;
+    border-top: none;
+    padding: 10px 20px;
+    border-left: none;
+    border-right: none;
+}
+.name{
+    position: absolute;
+    left: 10px;
+}
+#hamburger_menu{
+    display: none;
+}
+
+#search{
+    border: none;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+li{
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+}
+ul{
+    
+    margin: 0px;
+    padding: 0px;
+}
+.menu_show{
+    /* visibility: visible; */
+    /* visibility: collapse; */
+    /* So here if i use visibility then the space will be preoccupied with the div but this doesn't look good , that is why we will be using the display property of css. */
+    display: none;
+}
+.menu_show_desktop ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+
+
+.menu_show_desktop ul li{
+    display: flex;
+    flex-direction: row;
+    padding: 10px 10px;
+    background-color: transparent;
+    
+    
+}
+
+.menu_show_desktop ul li:hover{
+    background-color: #333;
+}
+
+.profile_image{
+    display: flex;
+    justify-content: center;
+    margin: 30px;    
+}
+
+#profile_image_btn img
+{
+    
+    border-radius: 100% 100% 100% 100%;
+}
+
+#profile_image_btn{
+    border:10px solid #555;
+    border-radius: 100% 100% 100% 100%;
+
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container{
+    max-width: 980px;
+    margin: 1rem  auto 0 auto;
+    /* background-color: #262525; */
+    
+}
+
+h1{
+    padding-bottom: 25px;
+    padding-left: 285px;
+    
+    
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5rem;
+    font-size: 18px;
+}
+.skills{
+    position: relative;
+    margin: 95px;
+}
+.skills h1{
+    color: purple;
+    padding-left: 550px;
+    
+
+}
+.skills h1::before{
+content: url(./arrow\ art.png);
+position: absolute;
+left: 0%;
+top: -70%;
+    
+}
+
+.skill_case ul{
+    margin: 10px;
+    position: absolute;
+    right: 25%;
+    
+}
+.skill_case ul li{
+    margin: 10px;
+}
+.skill_case ul li button{
+    padding: 20px;
+    padding-right: 100px;
+    border:2px solid #555;
+    border-radius: 5px 5px 5px 5px;
+
+}
+}
