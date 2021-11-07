@@ -123,7 +123,7 @@
     }
     .skills h1{
         color: purple;
-        padding-left: 50px;
+        padding-left: 20px;
         
 
     }
@@ -151,6 +151,56 @@
         border-radius: 5px 5px 5px 5px;
 
     }
+
+    .exs{
+        position: relative;
+        margin-top: 400px;
+
+    }
+    .exs h1{
+        color: purple;
+        padding-left: 0px;
+        
+
+    }
+
+    .ex_case li {
+        list-style: square;
+    }
+
+
+    .eds{
+        position: relative;
+        margin-top: 100px;
+
+    }
+    .eds h1{
+        color: purple;
+        padding-left: 0px;
+        
+
+    }
+
+    .ed_case li {
+        list-style: square;
+    }
+
+    .project{
+        position: relative;
+        margin-top: 100px;
+
+    }
+    .project h1{
+        color: purple;
+        padding-left: 0px;
+        
+
+    }
+
+    .project li {
+        list-style: square;
+    }
+    
 }
 /* ===================Desktop====================== */
 
@@ -301,4 +351,68 @@ top: -70%;
     border-radius: 5px 5px 5px 5px;
 
 }
+.exs{
+    position: relative;
+    margin-top: 400px;
+
+}
+.exs h1{
+    color: purple;
+    padding-left: 0px;
+    
+
+}
+
+.ex_case li {
+    list-style: square;
+}
+
+
+.eds{
+    position: relative;
+    margin-top: 100px;
+
+}
+.eds h1{
+    color: purple;
+    padding-left: 0px;
+    
+
+}
+
+.ed_case li {
+    list-style: square;
+}
+
+.project{
+    position: relative;
+    margin-top: 100px;
+
+}
+.project h1{
+    color: purple;
+    padding-left: 0px;
+    
+
+}
+
+.project li {
+    list-style: square;
+}
+.contact{
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(60, 85, 228));
+}
+.main_feedback{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   background-color: #333;
+
+}
+
+.form{
+    
+}
+
+
 }
